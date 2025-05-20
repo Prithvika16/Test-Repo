@@ -1,0 +1,821 @@
+# Test info
+
+- Name: Autosuggested Dropdown - Easy Calculation Search
+- Location: C:\PlaywrightDemo\tests\PracticeTests\Dropdown\autosuggestedExercide.spec.js:3:5
+
+# Error details
+
+```
+Error: page.fill: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('#searchform input[type="search"]')
+
+    at C:\PlaywrightDemo\tests\PracticeTests\Dropdown\autosuggestedExercide.spec.js:7:16
+```
+
+# Page snapshot
+
+```yaml
+- banner:
+  - link "easycalculation.com":
+    - /url: //www.easycalculation.com/
+    - img "easycalculation.com"
+  - textbox "Google Custom Search"
+  - button "🔍"
+  - text: English
+  - link "Sign in":
+    - /url: https://www.login.hiox.com/login?referrer=easycalculation.com
+- navigation:
+  - list:
+    - listitem:
+      - link "Calculators":
+        - /url: //www.easycalculation.com/index.php
+    - listitem:
+      - link "Converters":
+        - /url: //www.easycalculation.com/unit-conversion/index.php
+    - listitem:
+      - link "Formulas":
+        - /url: //www.easycalculation.com/formulas/index.php
+    - listitem:
+      - link "Currencies":
+        - /url: //www.easycalculation.com/currency-converter/index.php
+    - listitem:
+      - link "Charts":
+        - /url: //www.easycalculation.com/charts-and-tables.php
+    - listitem:
+      - link "Examples":
+        - /url: //www.easycalculation.com/examples.php
+    - listitem:
+      - link "Tutorials":
+        - /url: //www.easycalculation.com/tutorial.php
+    - listitem:
+      - link "Answers":
+        - /url: //www.easycalculation.com/faq/index.php
+    - listitem:
+      - link "Others":
+        - /url: "#"
+- insertion:
+  - iframe
+- heading "Free Calculators and Converters" [level=1]
+- paragraph: Your Math (mathematics) is made easy here. Calculate things online with just mouse moves. This free online math web site will help you learn mathematics in a easier way. EasyCalculation will also help you to solve difficult problems too.
+- heading "Top Calculators" [level=2]
+- link "Age Calculator":
+  - /url: https://www.easycalculation.com/date-day/age-calculator.php
+  - img "Age Calculator"
+- link "Age Calculator":
+  - /url: https://www.easycalculation.com/date-day/age-calculator.php
+- link "Mortgage":
+  - /url: https://www.easycalculation.com/mortgage/mortgage-calculator.php
+  - img "Mortgage"
+- link "Mortgage":
+  - /url: https://www.easycalculation.com/mortgage/mortgage-calculator.php
+- link "Logarithm":
+  - /url: https://www.easycalculation.com/log-antilog.php
+  - img "Logarithm"
+- link "Logarithm":
+  - /url: https://www.easycalculation.com/log-antilog.php
+- link "LOVE Game":
+  - /url: https://www.easycalculation.com/love/love.php
+  - img "LOVE Game"
+- link "LOVE Game":
+  - /url: https://www.easycalculation.com/love/love.php
+- link "Standard Deviation":
+  - /url: https://www.easycalculation.com/statistics/standard-deviation.php
+  - img "Standard Deviation"
+- link "Standard Deviation":
+  - /url: https://www.easycalculation.com/statistics/standard-deviation.php
+- link "FFMI":
+  - /url: https://www.easycalculation.com/health/ffmi-calculator.php
+  - img "FFMI"
+- link "FFMI":
+  - /url: https://www.easycalculation.com/health/ffmi-calculator.php
+- heading "Most Searched View All" [level=2]:
+  - text: Most Searched
+  - link "View All":
+    - /url: most-searched.php
+- list:
+  - listitem:
+    - link "Age Calculator":
+      - /url: //www.easycalculation.com/date-day/age-calculator.php
+  - listitem:
+    - link "Love Calculator":
+      - /url: //www.easycalculation.com/love/love.php
+  - listitem:
+    - link "Standard Deviation Calculator":
+      - /url: //www.easycalculation.com/statistics/standard-deviation.php
+  - listitem:
+    - link "Square Root Chart for 1 - 100":
+      - /url: //www.easycalculation.com/square-roots-numbers.html
+  - listitem:
+    - link "KB to GB Converter":
+      - /url: //www.easycalculation.com/unit-conversion/bandwidth/kilobyte-KB-gigabyte-GB.html
+  - listitem:
+    - link "Determinant Calculator":
+      - /url: //www.easycalculation.com/matrix/determinant-matrix.php
+  - listitem:
+    - link "RMB to INR Currency Converter":
+      - /url: //www.easycalculation.com/currency-converter/currency-RMB-INR.html
+  - listitem:
+    - link "Slope Calculator":
+      - /url: //www.easycalculation.com/analytical/slope-calculator.php
+  - listitem:
+    - link "Standard Error Calculator":
+      - /url: //www.easycalculation.com/statistics/standard-error-calculator.php
+  - listitem:
+    - link "RMB to PKR Currency Converter":
+      - /url: //www.easycalculation.com/currency-converter/currency-RMB-PKR.html
+  - listitem:
+    - link "Inverse of Matrix Calculator":
+      - /url: //www.easycalculation.com/matrix/matrix-inverse.php
+  - listitem:
+    - link "Concrete volume":
+      - /url: //www.easycalculation.com/engineering/civil/concrete-volume.php
+  - listitem:
+    - link "Pregnancy Calculator":
+      - /url: //www.easycalculation.com/health/pregnancy.php
+  - listitem:
+    - link "Mortgage Payment Calculator":
+      - /url: //www.easycalculation.com/mortgage/prepayment.php
+  - listitem:
+    - link "Subnet Mask Calculator":
+      - /url: //www.easycalculation.com/other/subnet-mask-calculator.php
+  - listitem:
+    - link "Integral Transport Function Calculator":
+      - /url: //www.easycalculation.com/integration/transportation-function.php
+- heading "Latest Searched View All" [level=2]:
+  - text: Latest Searched
+  - link "View All":
+    - /url: latest-search.php
+- list:
+  - listitem:
+    - link "Two Intercept Form":
+      - /url: //www.easycalculation.com/analytical/two-intercept.php
+  - listitem:
+    - link "Apparent porosity":
+      - /url: //www.easycalculation.com/physics/classical-physics/apparent-porosity.php
+  - listitem:
+    - link "Compatible Numbers Calculator":
+      - /url: //www.easycalculation.com/nearest-compatible-numbers.php
+  - listitem:
+    - link "Arcseconds to Degrees Converter":
+      - /url: //www.easycalculation.com/unit-conversion/arcseconds-to-degrees-converter.php
+  - listitem:
+    - link "Cronbachs Alpha Reliability Calculator":
+      - /url: //www.easycalculation.com/statistics/reliability-coefficient.php
+- heading "Newly Released View All" [level=2]:
+  - text: Newly Released
+  - link "View All":
+    - /url: newly-searched.php
+- list:
+  - listitem:
+    - link "Income Tax Calculator India 2019-2020":
+      - /url: //www.easycalculation.com/tax/india-tax-2019-2020.php
+  - listitem:
+    - link "Income Tax Calculator India 2018-2019":
+      - /url: //www.easycalculation.com/tax/india-tax-2018-2019.php
+  - listitem:
+    - link "Income Tax Calculator India 2017-18":
+      - /url: //www.easycalculation.com/tax/india-tax-2017-2018.php
+  - listitem:
+    - link "Wheel Offset Calculator":
+      - /url: //www.easycalculation.com/engineering/mechanical/wheel-offset-calculator.php
+  - listitem:
+    - link "Percentile Calculator Mean Standard Deviation":
+      - /url: //www.easycalculation.com/statistics/percentile-calculator-mean-std.php
+  - listitem:
+    - link "Binomial Cumulative Distribution Function Calculator":
+      - /url: //www.easycalculation.com/statistics/binomial-cdf-calculator.php
+  - listitem:
+    - link "Population Standard Deviation Calculator":
+      - /url: //www.easycalculation.com/statistics/population-standard-deviation.php
+  - listitem:
+    - link "Rank Order Calculator":
+      - /url: //www.easycalculation.com/statistics/rank-order-calculator.php
+  - listitem:
+    - link "Time Multiplication Calculator":
+      - /url: //www.easycalculation.com/date-day/time-multiplication-calculator.php
+  - listitem:
+    - link "Mortgage Length Calculator":
+      - /url: //www.easycalculation.com/mortgage/mortgage-length-calculator.php
+- insertion:
+  - iframe
+- heading "Latest Questions View All" [level=2]:
+  - text: Latest Questions
+  - link "View All":
+    - /url: faq/index.php
+- link "Does the law of sines calculator have an option to show how it did it, process / work?":
+  - /url: https://www.easycalculation.com/faq/does-the-law-of-sines-calculator.php
+- link "what is the differential diagnosis of diabetic retinopathy?":
+  - /url: https://www.easycalculation.com/faq/what-is-the-differential-diagnosis-of.php
+- insertion:
+  - iframe
+- insertion:
+  - iframe
+- link "In 2017, the entire fleet of light-duty vehicles sold in the United States by each manufacturer must emit an average of no more than 86 milligrams per mile (mg/mi) of nitrogen oxides (NOX) and nonmethane organic gas (NMOG) over the useful life (150,000 miles of driving) of the vehicle. NOX + NMOG emissions over the useful life for one car model vary Normally with mean 80 mg/mi and standard deviation 4 mg/mi. (a) What is the probability that a single car of this model emits more than 86 mg/mi of NOX + NMOG? (b) A company has 25 cars of this model in its fleet. What is the probability that the average NOX + NMOG level x¯ of these cars is above 86 g/mi?":
+  - /url: https://www.easycalculation.com/faq/in-2017-the-entire-fleet-of.php
+- heading "FREE Tutorials View All" [level=2]:
+  - text: FREE Tutorials
+  - link "View All":
+    - /url: tutorial.php
+- list:
+  - listitem:
+    - link "Area Tutorials":
+      - /url: area/area-tutorial.php
+  - listitem:
+    - link "Statistics Tutorial":
+      - /url: statistics/statistics-tutorial.php
+  - listitem:
+    - link "Algebra Tutorial":
+      - /url: algebra/algebra-tutorial.php
+  - listitem:
+    - link "Analytical Tutorial":
+      - /url: analytical/analytical-tutorial.php
+- heading "Currency Conversion" [level=2]
+- text: ⇋
+- textbox: "1"
+- combobox:
+  - option "EUR"
+  - option "USD" [selected]
+  - option "GBP"
+  - option "CAD"
+  - option "AUD"
+  - option "INR"
+  - option "AFN"
+  - option "ALL"
+  - option "DZD"
+  - option "ADF"
+  - option "ADP"
+  - option "AOA"
+  - option "AON"
+  - option "ARS"
+  - option "AMD"
+  - option "AWG"
+  - option "ATS"
+  - option "AZM"
+  - option "AZN"
+  - option "BSD"
+  - option "BHD"
+  - option "BDT"
+  - option "BBD"
+  - option "BYR"
+  - option "BEF"
+  - option "BZD"
+  - option "BMD"
+  - option "BTN"
+  - option "BOB"
+  - option "BAM"
+  - option "BWP"
+  - option "BRL"
+  - option "BND"
+  - option "BGN"
+  - option "BIF"
+  - option "KHR"
+  - option "CVE"
+  - option "KYD"
+  - option "XOF"
+  - option "XAF"
+  - option "XPF"
+  - option "CLP"
+  - option "CNY"
+  - option "RMB"
+  - option "YUAN"
+  - option "COP"
+  - option "KMF"
+  - option "CDF"
+  - option "CRC"
+  - option "HRK"
+  - option "CUC"
+  - option "CUP"
+  - option "CYP"
+  - option "CZK"
+  - option "DKK"
+  - option "DJF"
+  - option "DOP"
+  - option "NLG"
+  - option "XCD"
+  - option "ECS"
+  - option "EGP"
+  - option "SVC"
+  - option "EEK"
+  - option "ETB"
+  - option "XEU"
+  - option "FKP"
+  - option "FJD"
+  - option "FIM"
+  - option "FRF"
+  - option "GMD"
+  - option "GEL"
+  - option "GHC"
+  - option "GHS"
+  - option "GIP"
+  - option "XAU"
+  - option "GRD"
+  - option "GTQ"
+  - option "GNF"
+  - option "GYD"
+  - option "HTG"
+  - option "HNL"
+  - option "HKD"
+  - option "HUF"
+  - option "ISK"
+  - option "IDR"
+  - option "IRR"
+  - option "IQD"
+  - option "IEP"
+  - option "ILS"
+  - option "ITL"
+  - option "JMD"
+  - option "JPY"
+  - option "JOD"
+  - option "KZT"
+  - option "KES"
+  - option "KWD"
+  - option "KGS"
+  - option "LAK"
+  - option "LVL"
+  - option "LBP"
+  - option "LSL"
+  - option "LRD"
+  - option "LYD"
+  - option "LTL"
+  - option "LUF"
+  - option "MOP"
+  - option "MKD"
+  - option "MGA"
+  - option "MGF"
+  - option "MWK"
+  - option "MYR"
+  - option "RM"
+  - option "MVR"
+  - option "MTL"
+  - option "MRO"
+  - option "MUR"
+  - option "MXN"
+  - option "MDL"
+  - option "MNT"
+  - option "MAD"
+  - option "MZM"
+  - option "MZN"
+  - option "MMK"
+  - option "NAD"
+  - option "NPR"
+  - option "NZD"
+  - option "NIO"
+  - option "NGN"
+  - option "ANG"
+  - option "KPW"
+  - option "NOK"
+  - option "OMR"
+  - option "PKR"
+  - option "XPD"
+  - option "PAB"
+  - option "PGK"
+  - option "PYG"
+  - option "PEN"
+  - option "PHP"
+  - option "XPT"
+  - option "PLN"
+  - option "PTE"
+  - option "QAR"
+  - option "ROL"
+  - option "RON"
+  - option "RUB"
+  - option "RWF"
+  - option "WST"
+  - option "STD"
+  - option "SAR"
+  - option "RSD"
+  - option "SCR"
+  - option "SLL"
+  - option "XAG"
+  - option "SGD"
+  - option "SKK"
+  - option "SIT"
+  - option "SBD"
+  - option "SOS"
+  - option "ZAR"
+  - option "KRW"
+  - option "ESP"
+  - option "LKR"
+  - option "SHP"
+  - option "SDD"
+  - option "SDP"
+  - option "SDG"
+  - option "SRD"
+  - option "SRG"
+  - option "SZL"
+  - option "SEK"
+  - option "CHF"
+  - option "SYP"
+  - option "TWD"
+  - option "TJS"
+  - option "TZS"
+  - option "THB"
+  - option "BAHT"
+  - option "TOP"
+  - option "TTD"
+  - option "TND"
+  - option "TRY"
+  - option "TRL"
+  - option "TMM"
+  - option "TMT"
+  - option "UGX"
+  - option "UAH"
+  - option "DHS"
+  - option "UYU"
+  - option "AED"
+  - option "UZS"
+  - option "VUV"
+  - option "VEB"
+  - option "VEF"
+  - option "VND"
+  - option "YER"
+  - option "YUN"
+  - option "ZMK"
+  - option "ZWD"
+- textbox: "82.526"
+- combobox:
+  - option "EUR"
+  - option "USD"
+  - option "GBP"
+  - option "CAD"
+  - option "AUD"
+  - option "INR" [selected]
+  - option "AFN"
+  - option "ALL"
+  - option "DZD"
+  - option "ADF"
+  - option "ADP"
+  - option "AOA"
+  - option "AON"
+  - option "ARS"
+  - option "AMD"
+  - option "AWG"
+  - option "ATS"
+  - option "AZM"
+  - option "AZN"
+  - option "BSD"
+  - option "BHD"
+  - option "BDT"
+  - option "BBD"
+  - option "BYR"
+  - option "BEF"
+  - option "BZD"
+  - option "BMD"
+  - option "BTN"
+  - option "BOB"
+  - option "BAM"
+  - option "BWP"
+  - option "BRL"
+  - option "BND"
+  - option "BGN"
+  - option "BIF"
+  - option "KHR"
+  - option "CVE"
+  - option "KYD"
+  - option "XOF"
+  - option "XAF"
+  - option "XPF"
+  - option "CLP"
+  - option "CNY"
+  - option "RMB"
+  - option "YUAN"
+  - option "COP"
+  - option "KMF"
+  - option "CDF"
+  - option "CRC"
+  - option "HRK"
+  - option "CUC"
+  - option "CUP"
+  - option "CYP"
+  - option "CZK"
+  - option "DKK"
+  - option "DJF"
+  - option "DOP"
+  - option "NLG"
+  - option "XCD"
+  - option "ECS"
+  - option "EGP"
+  - option "SVC"
+  - option "EEK"
+  - option "ETB"
+  - option "XEU"
+  - option "FKP"
+  - option "FJD"
+  - option "FIM"
+  - option "FRF"
+  - option "GMD"
+  - option "GEL"
+  - option "GHC"
+  - option "GHS"
+  - option "GIP"
+  - option "XAU"
+  - option "GRD"
+  - option "GTQ"
+  - option "GNF"
+  - option "GYD"
+  - option "HTG"
+  - option "HNL"
+  - option "HKD"
+  - option "HUF"
+  - option "ISK"
+  - option "IDR"
+  - option "IRR"
+  - option "IQD"
+  - option "IEP"
+  - option "ILS"
+  - option "ITL"
+  - option "JMD"
+  - option "JPY"
+  - option "JOD"
+  - option "KZT"
+  - option "KES"
+  - option "KWD"
+  - option "KGS"
+  - option "LAK"
+  - option "LVL"
+  - option "LBP"
+  - option "LSL"
+  - option "LRD"
+  - option "LYD"
+  - option "LTL"
+  - option "LUF"
+  - option "MOP"
+  - option "MKD"
+  - option "MGA"
+  - option "MGF"
+  - option "MWK"
+  - option "MYR"
+  - option "RM"
+  - option "MVR"
+  - option "MTL"
+  - option "MRO"
+  - option "MUR"
+  - option "MXN"
+  - option "MDL"
+  - option "MNT"
+  - option "MAD"
+  - option "MZM"
+  - option "MZN"
+  - option "MMK"
+  - option "NAD"
+  - option "NPR"
+  - option "NZD"
+  - option "NIO"
+  - option "NGN"
+  - option "ANG"
+  - option "KPW"
+  - option "NOK"
+  - option "OMR"
+  - option "PKR"
+  - option "XPD"
+  - option "PAB"
+  - option "PGK"
+  - option "PYG"
+  - option "PEN"
+  - option "PHP"
+  - option "XPT"
+  - option "PLN"
+  - option "PTE"
+  - option "QAR"
+  - option "ROL"
+  - option "RON"
+  - option "RUB"
+  - option "RWF"
+  - option "WST"
+  - option "STD"
+  - option "SAR"
+  - option "RSD"
+  - option "SCR"
+  - option "SLL"
+  - option "XAG"
+  - option "SGD"
+  - option "SKK"
+  - option "SIT"
+  - option "SBD"
+  - option "SOS"
+  - option "ZAR"
+  - option "KRW"
+  - option "ESP"
+  - option "LKR"
+  - option "SHP"
+  - option "SDD"
+  - option "SDP"
+  - option "SDG"
+  - option "SRD"
+  - option "SRG"
+  - option "SZL"
+  - option "SEK"
+  - option "CHF"
+  - option "SYP"
+  - option "TWD"
+  - option "TJS"
+  - option "TZS"
+  - option "THB"
+  - option "BAHT"
+  - option "TOP"
+  - option "TTD"
+  - option "TND"
+  - option "TRY"
+  - option "TRL"
+  - option "TMM"
+  - option "TMT"
+  - option "UGX"
+  - option "UAH"
+  - option "DHS"
+  - option "UYU"
+  - option "AED"
+  - option "UZS"
+  - option "VUV"
+  - option "VEB"
+  - option "VEF"
+  - option "VND"
+  - option "YER"
+  - option "YUN"
+  - option "ZMK"
+  - option "ZWD"
+- text: Click Arrow to Reset
+- button "⟳"
+- heading "Quick Search" [level=2]
+- textbox "Maths Definition Search"
+- button "Search"
+- textbox "Formula Search"
+- button "Search"
+- insertion:
+  - iframe
+- heading "english Calculators and Converters" [level=3]:
+  - link "english Calculators and Converters":
+    - /url: //www.easycalculation.com
+    - img "english"
+    - text: Calculators and Converters
+- heading "Basic/Scientific calculator" [level=2]:
+  - link "Basic/Scientific calculator":
+    - /url: //www.easycalculation.com/basic-scientific-calculator.php
+- heading "Accountancy" [level=2]
+- list:
+  - listitem:
+    - link "Budget Calculators":
+      - /url: //www.easycalculation.com/budget/budget.php
+  - listitem:
+    - link "Finance Calculators":
+      - /url: //www.easycalculation.com/finance/finance.php
+  - listitem:
+    - link "Mortgage Calculator":
+      - /url: //www.easycalculation.com/mortgage/mortgage.php
+  - listitem:
+    - link "Tax calculators":
+      - /url: //www.easycalculation.com/tax/tax.php
+- heading "Algebra" [level=2]
+- list:
+  - listitem:
+    - link "Algebra Calculators":
+      - /url: //www.easycalculation.com/algebra/algebra.php
+  - listitem:
+    - link "Matrix Calculations":
+      - /url: //www.easycalculation.com/matrix/index.php
+  - listitem:
+    - link "Numbers":
+      - /url: //www.easycalculation.com/numbers.php
+- heading "Astrology" [level=2]
+- list:
+  - listitem:
+    - link "Marriage Compatibility Test":
+      - /url: //www.easycalculation.com/fun/marriage-compatibility-calculator.php
+  - listitem:
+    - link "Zodiac Calculators":
+      - /url: //www.easycalculation.com/zodiac/zodiac.php
+- heading "Calculus" [level=2]
+- list:
+  - listitem:
+    - link "Differentiation Calculators":
+      - /url: //www.easycalculation.com/differentiation/differentiation-calculator.php
+  - listitem:
+    - link "Integration Calculators":
+      - /url: //www.easycalculation.com/integration/integration.php
+- heading "Charts and Graphs" [level=2]
+- list:
+  - listitem:
+    - link "Charts":
+      - /url: //www.easycalculation.com/charts/chart.php
+  - listitem:
+    - link "Graphs":
+      - /url: //www.easycalculation.com/graphs/graph.php
+- heading "Engineering" [level=2]
+- list:
+  - listitem:
+    - link "Civil":
+      - /url: //www.easycalculation.com/engineering/civil/civil.php
+  - listitem:
+    - link "Marine":
+      - /url: //www.easycalculation.com/engineering/marine/marine.php
+  - listitem:
+    - link "Mechanical":
+      - /url: //www.easycalculation.com/engineering/mechanical/mechanical.php
+  - listitem:
+    - link "Electrical":
+      - /url: //www.easycalculation.com/engineering/electrical/electrical.php
+- heading "Geometry" [level=2]
+- list:
+  - listitem:
+    - link "Analytical Geometry":
+      - /url: //www.easycalculation.com/analytical/analytical.php
+  - listitem:
+    - link "Area Calculators":
+      - /url: //www.easycalculation.com/measurement/measurement.php
+  - listitem:
+    - link "Trigonometry calculators":
+      - /url: //www.easycalculation.com/trigonometry/trig.php
+- heading "Health" [level=2]
+- list:
+  - listitem:
+    - link "Health Calculator":
+      - /url: //www.easycalculation.com/health/health.php
+  - listitem:
+    - link "Medical Calculators":
+      - /url: //www.easycalculation.com/medical/medical.php
+- heading "Mind Twist" [level=2]
+- list:
+  - listitem:
+    - link "Funny Math":
+      - /url: //www.easycalculation.com/funny/funny.php
+  - listitem:
+    - link "Puzzles":
+      - /url: //www.easycalculation.com/puzzles/puzzle.php
+  - listitem:
+    - link "Vedic Maths":
+      - /url: //www.easycalculation.com/vedic-maths/vedic-maths.php
+- heading "Others" [level=2]
+- list:
+  - listitem:
+    - link "Others":
+      - /url: //www.easycalculation.com/other/other.php
+  - listitem:
+    - link "Weather":
+      - /url: //www.easycalculation.com/weather/weather.php
+- heading "Science" [level=2]
+- list:
+  - listitem:
+    - link "Chemistry Calculators":
+      - /url: //www.easycalculation.com/chemistry/chemistry.php
+  - listitem:
+    - link "Operations Research":
+      - /url: //www.easycalculation.com/operations-research/index.php
+  - listitem:
+    - link "Physics Calculators":
+      - /url: //www.easycalculation.com/physics/physics.php
+- heading "Sports Calculators" [level=2]:
+  - link "Sports Calculators":
+    - /url: //www.easycalculation.com/sports/sports.php
+- heading "Statistics" [level=2]:
+  - link "Statistics":
+    - /url: //www.easycalculation.com/statistics/statistics.php
+- list:
+  - listitem:
+    - link "Data Analysis":
+      - /url: //www.easycalculation.com/statistics/data-analysis.php
+  - listitem:
+    - link "Probability and Distributions":
+      - /url: //www.easycalculation.com/statistics/probability-and-distributions.php
+- insertion:
+  - iframe
+```
+
+# Test source
+
+```ts
+   1 | import { test, expect } from '@playwright/test';
+   2 |
+   3 | test('Autosuggested Dropdown - Easy Calculation Search', async ({ page }) => {
+   4 |     await page.goto('https://www.easycalculation.com/');
+   5 |
+   6 |     // Fill in the search box
+>  7 |     await page.fill('#searchform input[type="search"]', 'age');
+     |                ^ Error: page.fill: Test timeout of 30000ms exceeded.
+   8 |
+   9 |     // Wait for autosuggestions to appear
+  10 |     await page.waitForSelector('.searchbox-result li');
+  11 |
+  12 |     // Get all autosuggested options
+  13 |     const suggestions = await page.$$('.searchbox-result li');
+  14 |
+  15 |     for (const suggestion of suggestions) {
+  16 |         const text = await suggestion.textContent();
+  17 |         console.log('Suggestion:', text);
+  18 |
+  19 |         // Click on a matching suggestion
+  20 |         if (text.toLowerCase().includes('age calculator')) {
+  21 |             await suggestion.click();
+  22 |             break;
+  23 |         }
+  24 |     }
+  25 |
+  26 |     // Expect the title or URL to confirm navigation
+  27 |     await page.waitForLoadState('networkidle');
+  28 |     await expect(page).toHaveURL(/.*age-calculator.*/i);
+  29 |
+  30 |     // Optional wait before closing
+  31 |     await page.waitForTimeout(5000);
+  32 |     await page.close();
+  33 | });
+  34 |
+```

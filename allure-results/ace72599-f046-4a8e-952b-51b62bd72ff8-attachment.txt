@@ -1,0 +1,2 @@
+Title:  Javascript Tutorial - Alert
+URL:  http://www.tizag.com/javascriptT/javascriptalert.php
