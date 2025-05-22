@@ -108,14 +108,14 @@
   },
   "suites": [
     {
-      "title": "Demo\\UploadFilesExercise.spec.js",
-      "file": "Demo/UploadFilesExercise.spec.js",
+      "title": "Demo\\retry.spec.js",
+      "file": "Demo/retry.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Upload Files to 3 Sites",
-          "ok": false,
+          "title": "Re-try Test",
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -128,48 +128,22 @@
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
-                  "status": "timedOut",
-                  "duration": 30199,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
-                    {
-                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                    },
-                    {
-                      "location": {
-                        "file": "C:\\PlaywrightDemo\\tests\\Demo\\UploadFilesExercise.spec.js",
-                        "column": 14,
-                        "line": 17
-                      },
-                      "message": "Error: page.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.files button.start')\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"btn btn-primary start\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    42 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[0m \u001b[90m 15 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'http://blueimp.github.io/jQuery-File-Upload/'\u001b[39m)\n \u001b[90m 16 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39msetInputFiles(\u001b[32m'input[type=\"file\"]'\u001b[39m\u001b[33m,\u001b[39m filePath)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'.files button.start'\u001b[39m)\n \u001b[90m    |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 18 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'.name'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[32m'Sample Data.csv'\u001b[39m)\n \u001b[90m 19 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[32m'Uploaded to jQuery File Upload'\u001b[39m)\n \u001b[90m 20 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\PlaywrightDemo\\tests\\Demo\\UploadFilesExercise.spec.js:17:14\u001b[22m"
-                    }
-                  ],
-                  "stdout": [
-                    {
-                      "text": "Uploaded to HerokuApp\n"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 5820,
+                  "errors": [],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-21T09:50:17.070Z",
+                  "startTime": "2025-05-22T07:19:56.076Z",
                   "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "_error-context-1",
-                      "contentType": "text/markdown",
-                      "path": "C:\\PlaywrightDemo\\test-results\\Demo-UploadFilesExercise-Upload-Files-to-3-Sites-chromium\\error-context.md"
-                    }
-                  ]
+                  "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
-          "id": "584fea926c6a0aacfd0a-e65a5e9390415563a664",
-          "file": "Demo/UploadFilesExercise.spec.js",
+          "id": "74dbfead13e756d32469-c98682ba07746c0cd7d1",
+          "file": "Demo/retry.spec.js",
           "line": 3,
           "column": 5
         }
@@ -178,11 +152,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-05-21T09:50:10.944Z",
-    "duration": 39060.28,
-    "expected": 0,
+    "startTime": "2025-05-22T07:19:50.019Z",
+    "duration": 14273.903999999999,
+    "expected": 1,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }

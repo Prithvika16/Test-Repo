@@ -1,48 +1,6 @@
-<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="39.06028">
-<testsuite name="Demo\UploadFilesExercise.spec.js" timestamp="2025-05-21T09:50:11.153Z" hostname="chromium" tests="1" failures="1" skipped="0" time="30.199" errors="0">
-<testcase name="Upload Files to 3 Sites" classname="Demo\UploadFilesExercise.spec.js" time="30.199">
-<failure message="UploadFilesExercise.spec.js:3:5 Upload Files to 3 Sites" type="FAILURE">
-<![CDATA[  [chromium] › Demo\UploadFilesExercise.spec.js:3:5 › Upload Files to 3 Sites ──────────────────────
-
-    Test timeout of 30000ms exceeded.
-
-    Error: page.click: Test timeout of 30000ms exceeded.
-    Call log:
-      - waiting for locator('.files button.start')
-        - locator resolved to <button disabled class="btn btn-primary start">…</button>
-      - attempting click action
-        2 × waiting for element to be visible, enabled and stable
-          - element is not enabled
-        - retrying click action
-        - waiting 20ms
-        2 × waiting for element to be visible, enabled and stable
-          - element is not enabled
-        - retrying click action
-          - waiting 100ms
-        42 × waiting for element to be visible, enabled and stable
-           - element is not enabled
-         - retrying click action
-           - waiting 500ms
-
-
-      15 |   await page.goto('http://blueimp.github.io/jQuery-File-Upload/')
-      16 |   await page.setInputFiles('input[type="file"]', filePath)
-    > 17 |   await page.click('.files button.start')
-         |              ^
-      18 |   await expect(page.locator('.name')).toContainText('Sample Data.csv')
-      19 |   console.log('Uploaded to jQuery File Upload')
-      20 |
-        at C:\PlaywrightDemo\tests\Demo\UploadFilesExercise.spec.js:17:14
-
-    Error Context: ..\test-results\Demo-UploadFilesExercise-Upload-Files-to-3-Sites-chromium\error-context.md
-]]>
-</failure>
-<system-out>
-<![CDATA[Uploaded to HerokuApp
-
-[[ATTACHMENT|test-results\Demo-UploadFilesExercise-Upload-Files-to-3-Sites-chromium\error-context.md]]
-]]>
-</system-out>
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="14.273903999999998">
+<testsuite name="Demo\retry.spec.js" timestamp="2025-05-22T07:19:50.160Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.82" errors="0">
+<testcase name="Re-try Test" classname="Demo\retry.spec.js" time="5.82">
 </testcase>
 </testsuite>
 </testsuites>
